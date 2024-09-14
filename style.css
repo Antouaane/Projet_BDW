@@ -1,0 +1,113 @@
+.connect {
+    font-size: 17px;
+    border-radius: 50px;
+    width: 180px;
+    display: inline;
+}
+
+.img_index {
+    width: 15%;
+    border-radius : 20px;
+    padding: 5px;
+}
+
+.SignForm {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bouton {
+    display: block;
+}
+
+.backround {
+    background-color: #e3e3e3;
+}
+
+.texte {
+    font-size: 20px;
+}
+
+header {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ABABAB;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+#container {
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#mur img {
+    width: 100%;
+    border-radius : 50px;
+}
+
+#mur {
+    column-count: 1;
+}
+
+#mur a {
+    display: block;
+}
+
+.prev_img {
+    text-align: left;
+    display: inline-block;
+    width: 10%;
+}
+
+.next_img {
+    text-align: right;
+    display: inline-block;
+    width: 90%;
+}
+
+@media screen and (min-width: 300px) {
+    #mur {
+        column-count: 3;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #mur {
+        column-count: 5;
+    }
+}
